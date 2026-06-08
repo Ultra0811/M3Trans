@@ -132,17 +132,6 @@ The expected multimodal training format follows the LLaMA-Factory image-to-text 
 }
 ```
 
-## Not released
-
-The following materials are not publicly redistributed here:
-
-- the complete MWTrans-118K corpus;
-- complete train/validation/test splits;
-- full page-level archival images;
-- full expert-validated sentence annotations;
-- manually curated bilingual alignment files;
-- the complete external held-out-book test set.
-
 ## License
 
 The source code, configuration files, scripts, and documentation are released under the MIT License.
