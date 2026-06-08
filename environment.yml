@@ -1,0 +1,29 @@
+name: m3trans
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - pytorch-cuda=12.1
+  - numpy
+  - pillow
+  - pyyaml
+  - tqdm
+  - pip:
+      - transformers>=4.51.0
+      - accelerate
+      - datasets
+      - peft
+      - deepspeed
+      - opencv-python
+      - nltk
+      - sacrebleu
+      - bert-score
+      - sentence-transformers
+      - rouge-score
+      - scikit-image

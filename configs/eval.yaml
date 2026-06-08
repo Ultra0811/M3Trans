@@ -1,0 +1,9 @@
+prediction_file: outputs/pred_detail_nltk_bleu.json
+prediction_key: prediction
+reference_key: reference
+output_dir: outputs/evaluation
+sbert_model: BAAI/bge-large-zh-v1.5
+metrics:
+  - bleu
+  - chrf
+  - sbert

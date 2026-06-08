@@ -1,0 +1,26 @@
+{
+  "mwtrans_train": {
+    "file_name": "/path/to/mwtrans_train.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "mwtrans_valid": {
+    "file_name": "/path/to/mwtrans_valid.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "mwtrans_demo": {
+    "file_name": "demo_examples/demo_train_format.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  }
+}

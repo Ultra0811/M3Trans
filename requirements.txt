@@ -1,0 +1,17 @@
+torch
+transformers>=4.51.0
+accelerate
+datasets
+peft
+deepspeed
+Pillow
+opencv-python
+numpy
+PyYAML
+tqdm
+nltk
+sacrebleu
+bert-score
+sentence-transformers
+rouge-score
+scikit-image

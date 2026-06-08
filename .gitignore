@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# model weights
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# large data
+data/
+datasets/
+outputs/
+runs/
+checkpoints/
+wandb/
+
+# system files
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,42 @@
+{
+  "sample_id": "sample_002",
+  "source_sample_id": "Volume08__Image_009__Sentence03",
+  "split": "train",
+  "corpus": "Volume08",
+  "page_name": "Image_009",
+  "sentence_id": "Image_009__Sentence03",
+  "sentence_dir": "Sentence03",
+  "word_order": [
+    "word_0001.png",
+    "word_0002.png",
+    "word_0003.png",
+    "word_0004.png",
+    "word_0005.png"
+  ],
+  "source_patch_names": [
+    "p_009_4_6.jpg",
+    "p_009_4_7.jpg",
+    "p_009_4_8.jpg",
+    "p_009_5_1.jpg",
+    "p_009_5_2.jpg"
+  ],
+  "source_raw_patch_names": [
+    "009_4_6.jpg",
+    "009_4_7.jpg",
+    "009_4_8.jpg",
+    "009_5_1.jpg",
+    "009_5_2.jpg"
+  ],
+  "raw_sentence": "raw_sentence.png",
+  "binarized_sentence": "binarized_sentence.png",
+  "reconstructed_sentence": "reconstructed_sentence.png",
+  "enhanced_sentence": "enhanced_sentence.png",
+  "classical_chinese": "不廢其會節",
+  "patch_count": 5,
+  "column_count": 1,
+  "layout_mode": "single_column",
+  "source_image": "/data/shp/Manchu_NMT_new/data/ms_swift_datasets/stitched_sentence_single_column_8_1_1_no_batch123_json/images/Volume08/Image_009/Sentence03.png",
+  "source_raw_fragment_dir": "/data/shp/Manchu_NMT_new/data/原始数据/Volume08/pic/Image_009/Sentence03",
+  "source_binarized_fragment_dir": "/data/shp/Manchu_NMT_new/data/处理所有图片_仅二值化/Volume08/pic/Image_009/Sentence03",
+  "processing_stage": "real_vertical_single_column_demo"
+}

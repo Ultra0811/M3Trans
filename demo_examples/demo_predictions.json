@@ -1,0 +1,18 @@
+[
+  {
+    "id": "sample_001",
+    "images": [
+      "demo_examples/sample_001/binarized_sentence.png"
+    ],
+    "reference": "有成事",
+    "prediction": "有成事"
+  },
+  {
+    "id": "sample_002",
+    "images": [
+      "demo_examples/sample_002/binarized_sentence.png"
+    ],
+    "reference": "不廢其會節",
+    "prediction": "不廢其會節"
+  }
+]
