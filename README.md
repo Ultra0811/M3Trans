@@ -72,7 +72,7 @@ python preprocess/build_demo_json.py --demo_dir demo_examples --output_file demo
 
 ## Training
 
-Full-parameter SFT configuration for GAMA. Register your local training JSON in LLaMA-Factory following `configs/dataset_info_example.json` before launching large-scale training:
+Full-parameter SFT configuration for Qwen2.5-VL. Register your local training JSON in LLaMA-Factory following `configs/dataset_info_example.json` before launching large-scale training:
 
 ```bash
 python train/train_sft_full.py --config configs/sft_full_qwen25vl_7b.yaml
@@ -132,6 +132,19 @@ The expected multimodal training format follows the LLaMA-Factory image-to-text 
 }
 ```
 
+## Not released
+
+The following materials are not publicly redistributed here:
+
+- the complete MWTrans-118K corpus;
+- complete train/validation/test splits;
+- full page-level archival images;
+- full expert-validated sentence annotations;
+- manually curated bilingual alignment files;
+- the complete external held-out-book test set.
+
 ## License
 
-Code is released under the MIT License. Demonstration examples are provided for non-commercial research and educational use, subject to the usage restrictions of the original archival sources and third-party pretrained models.
+The source code, configuration files, scripts, and documentation are released under the MIT License.
+
+The files under `demo_examples/` are provided only for format inspection, pipeline demonstration, non-commercial research, and educational use. They are not covered by the MIT code license and remain subject to the usage and redistribution restrictions of the original archival sources and any third-party pretrained models used with this repository.

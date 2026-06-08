@@ -1,23 +1,36 @@
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*$py.class
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+outputs/
+output/
+logs/
 *.log
+wandb/
+runs/
 
-# model weights
-*.pth
+checkpoints/
+checkpoint*/
 *.pt
-*.ckpt
+*.pth
+*.bin
 *.safetensors
+*.ckpt
+*.onnx
 
-# large data
 data/
 datasets/
-outputs/
-runs/
-checkpoints/
-wandb/
+*.jsonl
+*.parquet
+*.arrow
+*.npy
+*.npz
 
-# system files
 .DS_Store
 .vscode/
 .idea/

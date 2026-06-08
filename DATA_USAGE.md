@@ -2,7 +2,7 @@
 
 MWTrans-118K was constructed from rare Manchu--Chinese archival materials and expert-validated sentence-level annotations. The full corpus is not redistributed in this repository because the original sources and annotations are subject to usage and redistribution restrictions.
 
-This release provides two small real demonstration examples only to show the preprocessing pipeline and JSON schema. These examples should not be treated as the full benchmark and cannot reproduce the paper's reported scores.
+This release provides two small real demonstration examples only to show the preprocessing pipeline and JSON schema. These examples should not be treated as the full benchmark and cannot reproduce the paper's reported scores. They are not covered by the MIT code license and should be used only for format inspection, pipeline demonstration, non-commercial research, and educational purposes.
 
 Researchers who have legal access to the source materials can use the released scripts to prepare their own data in the same format:
 
